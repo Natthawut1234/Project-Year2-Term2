@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Services Section Styles */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.service {
+    margin-bottom: 50px;
+}
+
+.service img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #333; /* ตั้งค่าสีพื้นหลังเริ่มต้น */
+    padding: 10px 20px; /* ปรับขนาดของพื้นที่คลิก */
+    border-radius: 5px; /* ทำให้มุมของลิงก์เป็นรูปวงกลม */
+}
+nav ul li a:hover,
+nav ul li a:active {
+    background-color: rgb(65, 65, 68); /* ปรับสีพื้นหลังเมื่อชี้ */
+
+}
+
+.service1 {
+    background-image: url(http://3.bp.blogspot.com/-Gov9zyEsh2E/TmBVj59VL3I/AAAAAAAAA4M/xe8KHIUkf08/s1600/blackhorse.jpg);
+    background-repeat: repeat-x; 
+}
+
+.elementor-124, .elementor-124 .elementor-element.elementor-element-5fe7518 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #FF9415;
+}
